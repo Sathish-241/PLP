@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/e16fa38c09.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="body-container">
+        <h1 class="heading">PLP</h1>
+        <div class="serch-input-field-container">
+            <input type="search" class="search-input" id="searchInput" placeholder="Type something to search..." onchange="searchItem()" />
+            <button type="button" class="list-view-btn" onclick="showListView()"><i class="fas fa-list"></i></button>
+            <button type="button" class="grid-view-btn" onclick="showGridView()"><i class="fas fa-th-large"></i></button>
+        </div>
+
+
+        <div class="results-container">
+            <ul class="products-items-container" id="productItemsContainer">
+
+            </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>

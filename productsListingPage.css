@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.body-container {
+    padding: 50px;
+}
+
+.heading {
+    text-align: center;
+    font-family: arial;
+
+}
+
+.serch-input-field-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search-input {
+    height: 30px;
+    outline: none;
+    padding: 2px;
+    width: 300px;
+
+}
+
+.list-view-btn,
+.grid-view-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.products-items-container-list-view {
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.products-items-container-grid-view {
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: none;
+}
+
+.product-card {
+    border: 1px solid grey;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 8px;
+
+
+}
+
+.img-container {
+    background-color: rgb(235, 242, 241);
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 6px;
+    padding-bottom: 10px;
+    margin: 5px;
+
+}
+
+.img {
+    /* height: 150px;
+    width: 150px; */
+}
+
+.badge-title {
+    background-color: yellow;
+    font-size: 14px;
+    width: 80px;
+    height: 20px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+    margin-left: 3px;
+    margin-top: 0px;
+}
+
+.data-container {
+    margin-left: 20px;
+    padding: 3px;
+    height: 150px;
+    width: 200px;
+}
+
+.product-title {
+    font-size: 22px;
+    font-family: Roboto;
+}
+
+.vairant {
+    color: grey;
+    font-size: 16px;
+    font-family: arial;
+}
